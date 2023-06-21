@@ -1,0 +1,32 @@
+.TimelineInstance {
+  width: 70vw;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #511;
+  position: relative;
+}
+
+.TimelineInstance::before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%; /* This gives us a 16:9 aspect ratio */
+}
+
+.TimelineContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TimelineBox {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  /* Additional styles for the timeline box as needed */
+}
+
