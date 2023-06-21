@@ -5,4 +5,4 @@ server/node_modules/
 
 /misc/
 
-client/reportWebVitals.js
+client/src/reportWebVitals.js
